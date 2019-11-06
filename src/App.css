@@ -1,6 +1,3 @@
-nav, header, div {
-  font-size: 18px;
-}
 
 .nav {
   display: flex;
@@ -31,4 +28,80 @@ nav, header, div {
 
 .rightnav > div {
   padding-left: 30px;
+}
+
+.footer {
+  text-align: center;
+  border-top: 1px solid lightgray;
+  padding: 15px 100px;
+  line-height: 2;
+}
+
+i {
+  margin: 0px 10px;
+  color: #3498DB;
+}
+
+.overview {
+  text-align: center;
+  padding: 180px 0px;
+  background-image: url(./images/queens3.jpg);
+  color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.overviewheader {
+  font-size: 54px;
+  padding-bottom: 20px;
+}
+
+.overviewcaption {
+  font-size: 32px;
+  line-height: 1.5;
+}
+
+.research {
+  text-align: center;
+  margin: 50px 200px;
+}
+
+.research > div, .homeimage > div > div {
+  font-size: 40px;
+}
+.research > p , .homeimage > div > p {
+  line-height: 1.5;
+  font-size: 24px;
+}
+
+.homeimage {
+  text-align: center;
+  background-image: url(./images/home.jpg);
+  padding-top: 400px;
+  margin: 0px 200px;
+}
+
+.homeimage > div {
+  background-color: #F8F9F9;
+  padding: 20px 40px;
+}
+
+.story {
+  display: flex;
+  margin: 0px 200px;
+}
+
+.story > div {
+  padding: 30px 50px;
+  text-align: center;
+  line-height: 1.5;
+} 
+
+.story > div > div {
+  font-size: 40px;
+}
+
+.APTA {
+  text-align: center;
+  background-color: #F8F9F9;
 }

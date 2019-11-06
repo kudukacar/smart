@@ -1,0 +1,43 @@
+import React from "react";
+import Footer from './footer';
+import NavBar from './navbar';
+import manju from '../images/manju.jpg';
+import APTA from '../images/APTA.jpg';
+
+const About = () => (
+  <React.Fragment>
+      <NavBar />
+      <div>
+        <div className="overview">
+          <div className="overviewheader">Physical therapy in your home</div>
+          <div className="overviewcaption">
+            <div>Serves Queens, Nassau county, and Manhattan</div>
+            <div>Accepts Medicare</div>
+          </div>
+        </div>
+        <div className="research">
+          <div>Get better quickly and conveniently</div>
+          <p>Smart moves provides high-quality, effective, evidence-based physical therapy in your home.  Research shows no difference in outcomes between physical therapy in the home and physical therapy at a facility.</p>
+        </div>
+        <div className="homeimage">
+          <div>
+            <div>Enhance your health, fitness, and independence</div>
+            <p>Smart moves manages movement and balance disorders (fall prevention), and back, hip, knee, ankle, foot, neck, shoulder, and elbow conditions.</p>
+          </div>
+        </div>
+        <div className="story">
+          <img src={manju} alt="home physical therapy"/>
+          <div>
+            <div>Our story</div>
+            <p>A physical therapist since 1999, and frustrated with the hastened care at outpatient facilities, Manju Thomas turned to home visits to thoughtfully deliver high-quality one on one care.  She enjoys working with the older adult population to promote function and return to activity.  She received her Master’s in Physical Therapy from Washington University in St. Louis (#1 ranked physical therapy school). She also holds a Bachelor’s in Chemistry from Cornell University, and a Master’s in Business Administration from Duke University. She is Otago trained for fall prevention.</p>
+          </div>
+        </div>
+        <div className="APTA">
+        <a href="http://www.apta.org/"><img src={APTA} alt="APTA" /></a> 
+        </div>
+      </div>
+      <Footer />
+  </React.Fragment>
+)
+
+export default About;

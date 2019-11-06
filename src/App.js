@@ -1,12 +1,12 @@
 import React from 'react';
 import './App.css';
 import { Route, Switch } from 'react-router-dom';
-import Footer from './components/footer';
+import About from './components/about';
 
 const App = () => (
   <div>
     <Switch>
-      <Route exact path="/" component={Footer} />
+      <Route exact path="/" component={About} />
     </Switch>
   </div>
 )
