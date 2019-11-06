@@ -26,6 +26,15 @@
   display: flex;
 }
 
+.rightnav > a {
+  padding-left: 30px;
+  font-size: 18px;
+}
+
+.rightnav > a:hover {
+  color: #3498DB;
+  font-weight: bold;
+}
 .rightnav > div {
   padding-left: 30px;
 }
@@ -45,7 +54,7 @@ i {
 .overview {
   text-align: center;
   padding: 180px 0px;
-  background-image: url(./images/queens3.jpg);
+  background-image: url(./images/nyc.jpeg);
   color: #ffffff;
   background-repeat: no-repeat;
   background-size: cover;
@@ -79,11 +88,12 @@ i {
   background-image: url(./images/home.jpg);
   padding-top: 400px;
   margin: 0px 200px;
+  background-repeat: no-repeat;
 }
 
 .homeimage > div {
   background-color: #F8F9F9;
-  padding: 20px 40px;
+  padding: 50px 40px;
 }
 
 .story {
@@ -92,7 +102,7 @@ i {
 }
 
 .story > div {
-  padding: 30px 50px;
+  padding: 50px 70px;
   text-align: center;
   line-height: 1.5;
 } 
@@ -104,4 +114,59 @@ i {
 .APTA {
   text-align: center;
   background-color: #F8F9F9;
+}
+
+.services {
+  margin: 0px 150px;
+}
+
+.servicesmovement {
+  display: flex;
+  flex-direction: row;
+}
+
+.seniors {
+  text-align: center;
+  background-image: url(./images/couple2.jpg);
+  padding-top: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.balance {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.balance > div, .orthopedicheader {
+    text-align: center;
+    line-height: 2;
+    font-size: 30px;
+}
+
+.balance > ul {
+  /* margin: 0px 250px; */
+  line-height: 1.5;
+  font-size: 22px;
+  display: flex;
+  flex-direction: column;
+  margin: 0px 40px;
+  padding-bottom: 20px;
+}
+
+.servicesimage {
+  text-align: center;
+  background-image: url(./images/seniors.jpg);
+  padding-top: 550px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.orthopedicconditions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1.5;
+  font-size: 22px;
 }

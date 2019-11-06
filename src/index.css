@@ -13,6 +13,13 @@ code {
     monospace;
 }
 
-.APTA {
-  text-align: center;
+ a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+    color: inherit;
 }
+
+/* ul {
+  list-style-position: inside;
+} */
