@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "8ea369fbee152b6bdad4713188af8e18",
+    "revision": "20fe554ebd53e5d1884ecd82a49c1f8f",
     "url": "/smart/index.html"
   },
   {
-    "revision": "1af3babaae688161ebb9",
+    "revision": "3e23078ec2ad8c4abca1",
     "url": "/smart/static/css/main.1c47a500.chunk.css"
   },
   {
@@ -12,16 +12,12 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/smart/static/js/2.9f8a6707.chunk.js"
   },
   {
-    "revision": "1af3babaae688161ebb9",
-    "url": "/smart/static/js/main.9c9b5a11.chunk.js"
+    "revision": "3e23078ec2ad8c4abca1",
+    "url": "/smart/static/js/main.acaf7d47.chunk.js"
   },
   {
     "revision": "a13c6c3f4a9ad1c295ea",
     "url": "/smart/static/js/runtime-main.f823baae.js"
-  },
-  {
-    "revision": "e97b9c9eca33ca8d6894fc3b9673f861",
-    "url": "/smart/static/media/APTA.e97b9c9e.jpg"
   },
   {
     "revision": "05a253725541e1fa750c6a50f493a8d7",

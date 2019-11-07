@@ -1,17 +1,16 @@
 {
   "files": {
     "main.css": "/smart/static/css/main.1c47a500.chunk.css",
-    "main.js": "/smart/static/js/main.9c9b5a11.chunk.js",
-    "main.js.map": "/smart/static/js/main.9c9b5a11.chunk.js.map",
+    "main.js": "/smart/static/js/main.acaf7d47.chunk.js",
+    "main.js.map": "/smart/static/js/main.acaf7d47.chunk.js.map",
     "runtime-main.js": "/smart/static/js/runtime-main.f823baae.js",
     "runtime-main.js.map": "/smart/static/js/runtime-main.f823baae.js.map",
     "static/js/2.9f8a6707.chunk.js": "/smart/static/js/2.9f8a6707.chunk.js",
     "static/js/2.9f8a6707.chunk.js.map": "/smart/static/js/2.9f8a6707.chunk.js.map",
     "index.html": "/smart/index.html",
-    "precache-manifest.ee513629a71c6819bf998334f4f67e80.js": "/smart/precache-manifest.ee513629a71c6819bf998334f4f67e80.js",
+    "precache-manifest.087c96ab00c088870c5a945d1ddd8a8f.js": "/smart/precache-manifest.087c96ab00c088870c5a945d1ddd8a8f.js",
     "service-worker.js": "/smart/service-worker.js",
     "static/css/main.1c47a500.chunk.css.map": "/smart/static/css/main.1c47a500.chunk.css.map",
-    "static/media/APTA.jpg": "/smart/static/media/APTA.e97b9c9e.jpg",
     "static/media/App.css": "/smart/static/media/seniors.548d59e9.jpg",
     "static/media/homehealth.jpg": "/smart/static/media/homehealth.57217de3.jpg",
     "static/media/logo.png": "/smart/static/media/logo.716dea34.png",
@@ -23,6 +22,6 @@
     "static/js/runtime-main.f823baae.js",
     "static/js/2.9f8a6707.chunk.js",
     "static/css/main.1c47a500.chunk.css",
-    "static/js/main.9c9b5a11.chunk.js"
+    "static/js/main.acaf7d47.chunk.js"
   ]
 }
