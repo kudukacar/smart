@@ -2,7 +2,6 @@ import React from "react";
 import Footer from './footer';
 import NavBar from './navbar';
 import manju from '../images/manju.jpg';
-import APTA from '../images/APTA.jpg';
 
 const About = () => (
   <React.Fragment>
