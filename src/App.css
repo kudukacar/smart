@@ -31,10 +31,10 @@
   font-size: 18px;
 }
 
-.rightnav > a:hover {
+.rightnav > a.selected, .rightnav > a:hover {
   color: #3498DB;
-  font-weight: bold;
 }
+
 .rightnav > div {
   padding-left: 30px;
 }
@@ -42,13 +42,19 @@
 .footer {
   text-align: center;
   border-top: 1px solid lightgray;
-  padding: 15px 100px;
+  padding: 15px 0px;
   line-height: 2;
 }
 
 i {
   margin: 0px 10px;
   color: #3498DB;
+}
+
+.copyright {
+  background-color: #85929E;
+  color: #ffffff;
+  margin: 20px 0px;
 }
 
 .overview {
@@ -117,7 +123,7 @@ i {
 }
 
 .services {
-  margin: 0px 150px;
+  margin: 0px 200px;
 }
 
 .servicesmovement {
@@ -169,4 +175,85 @@ i {
   justify-content: center;
   line-height: 1.5;
   font-size: 22px;
+}
+
+.insurance {
+  display: flex;
+  padding: 0px 200px;
+  background-color: #F8F9F9;
+  border-top: 1px solid #ffffff;
+  line-height: 1.5;
+}
+
+.insurancetype {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 40px;
+}
+
+.insurancetype > div {
+  font-size: 30px;
+}
+
+.insurancetype > ul {
+  line-height: 1.5;
+  font-size: 20px;
+}
+
+.insurance > img {
+  display: block;
+  max-width: 450px;
+  height: 380px;
+}
+
+.questions {
+  margin: 0px 200px;
+}
+
+.questionheader {
+  font-size: 40px;
+  padding: 10px 0px;
+}
+
+.question {
+  font-size: 30px;
+  padding: 20px 0px;
+}
+
+.answer {
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+.lastquestion {
+  font-size: 32px;
+  padding-top: 20px;
+}
+
+.contact {
+  display: flex;
+  padding: 0px 200px;
+  background-color: #F8F9F9;
+  line-height: 2.0;
+}
+
+.contact > img {
+  display: block;
+  max-width: 550px;
+}
+
+.contact > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-right: 20px;
+}
+
+.contactheader {
+  font-size: 40px;
+}
+
+.contactinfo {
+  padding: 10px 0px;
 }

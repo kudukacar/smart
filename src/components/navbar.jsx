@@ -1,6 +1,6 @@
 import React from "react";
 import logo from '../images/logo.png';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 
 const NavBar = () => {
   return(
@@ -12,10 +12,10 @@ const NavBar = () => {
         </div>
       </nav>
       <nav className="rightnav">
-        <Link to="/">About</Link>
-        <Link to="/services">Services</Link>
-        <div>Insurance</div>
-        <div>Contact</div>
+        <NavLink exact activeClassName="selected" to="/">About</NavLink>
+        <NavLink activeClassName="selected" to="/services">Services</NavLink>
+        <NavLink activeClassName="selected" to="/insurance">Insurance</NavLink>
+        <NavLink activeClassName="selected" to="/contact">Contact</NavLink>
       </nav>
     </header>
   )

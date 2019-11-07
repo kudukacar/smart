@@ -17,7 +17,7 @@ const About = () => (
         </div>
         <div className="research">
           <div>Get better quickly and conveniently</div>
-          <p>Smart moves provides high-quality, effective, evidence-based physical therapy in your home.</p>
+          <p>Smart Moves provides high-quality, effective, evidence-based physical therapy in your home.</p>
         </div>
         <div className="homeimage">
           <div>
@@ -26,7 +26,7 @@ const About = () => (
           </div>
         </div>
         <div className="story">
-          <img src={manju} alt="home physical therapy"/>
+          <img src={manju} alt="home physical therapy" />
           <div>
             <div>Our story</div>
             <p>A physical therapist since 1999, and frustrated with the hastened care at outpatient facilities, Manju Thomas turned to home visits to thoughtfully deliver high-quality one on one care.  She enjoys working with the older adult population to promote function, and return to activity.  She received her Master’s in Physical Therapy from Washington University in St. Louis (#1 ranked physical therapy school). She is Otago trained for fall prevention.</p>

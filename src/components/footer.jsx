@@ -9,6 +9,7 @@ const Footer = () => (
       <a href="https://twitter.com/movesphysical"><i className="fab fa-twitter fa-lg" /></a>
       <a href="https://www.linkedin.com/company/smart-moves-physical-therapy"><i class="fab fa-linkedin-in fa-lg" /></a>
     </div>
+    <div className="copyright">©2019 BY SMART MOVES PHYSICAL THERAPY</div>
   </div>
 )
 
