@@ -32,9 +32,6 @@ const About = () => (
             <p>A physical therapist since 1999, and frustrated with the hastened care at outpatient facilities, Manju Thomas turned to home visits to thoughtfully deliver high-quality one on one care.  She enjoys working with the older adult population to promote function, and return to activity.  She received her Master’s in Physical Therapy from Washington University in St. Louis (#1 ranked physical therapy school). She is Otago trained for fall prevention.</p>
           </div>
         </div>
-        <div className="APTA">
-        <a href="http://www.apta.org/"><img src={APTA} alt="APTA" /></a> 
-        </div>
       </div>
       <Footer />
   </React.Fragment>
