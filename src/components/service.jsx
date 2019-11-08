@@ -8,12 +8,14 @@ const Services = () => (
     <div className="services">
         <div className="seniors"></div>
         <div className="balance">
-            <div>We manage movement and balance disorders</div>
-            <ul>
-                <li>Walking difficulty (poor balance or endurance, repeated falls, or fear of falling).</li>
-                <li>Difficulty changing positions such as getting out of bed or getting up from a chair.</li>
-                <li>Any movement or balance disorders related to Parkinson's disease, stroke, or other conditions.</li>
-            </ul>
+            <div className="balanceheader">We manage movement and balance disorders</div>
+            <div>
+                <ul>
+                    <li>Walking difficulty (poor balance or endurance, repeated falls, or fear of falling).</li>
+                    <li>Difficulty changing positions such as getting out of bed or getting up from a chair.</li>
+                    <li>Any movement or balance disorders related to Parkinson's, stroke, or other conditions.</li>
+                </ul>
+            </div>
         </div>
         <div className="servicesimage"></div>
         <div className="orthopedic">

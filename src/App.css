@@ -143,17 +143,21 @@ i {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 20px 0px;
 }
 
-.balance > div, .orthopedicheader {
+.balanceheader, .orthopedicheader {
     text-align: center;
-    line-height: 2;
     font-size: 30px;
 }
 
-.balance > ul {
+.balanceheader {
+  line-height: 2;
+}
+
+.balance > div > ul {
   /* margin: 0px 250px; */
-  line-height: 1.5;
+  line-height: 2;
   font-size: 22px;
   display: flex;
   flex-direction: column;
@@ -168,15 +172,21 @@ i {
   background-repeat: no-repeat;
   background-size: cover;
 }
+.orthopedic {
+  padding: 20px 0px;
+}
 
 .orthopedicconditions {
   display: flex;
   align-items: center;
   justify-content: center;
-  line-height: 1.5;
+  line-height: 2;
   font-size: 22px;
 }
 
+.orthopedicconditions > ul {
+  padding: 0px 40px;
+}
 .insurance {
   display: flex;
   padding: 0px 200px;
@@ -198,7 +208,7 @@ i {
 
 .insurancetype > ul {
   line-height: 1.5;
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .insurance > img {
@@ -213,29 +223,29 @@ i {
 
 .questionheader {
   font-size: 40px;
-  padding: 10px 0px;
+  padding: 20px 0px;
 }
 
 .question {
   font-size: 30px;
-  padding: 20px 0px;
+  padding-top: 40px;
+  padding-bottom: 20px;
 }
 
 .answer {
-  font-size: 20px;
   line-height: 1.5;
 }
 
 .lastquestion {
   font-size: 32px;
-  padding-top: 20px;
+  padding-top: 40px;
 }
 
 .contact {
   display: flex;
   padding: 0px 200px;
   background-color: #F8F9F9;
-  line-height: 2.0;
+  line-height: 1.5;
 }
 
 .contact > img {
@@ -252,8 +262,11 @@ i {
 
 .contactheader {
   font-size: 40px;
+  padding-bottom: 10px;
 }
 
 .contactinfo {
-  padding: 10px 0px;
+  padding: 5px 0px;
+  font-size: 20px;
+  line-height: 2.0;
 }

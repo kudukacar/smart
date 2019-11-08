@@ -9,10 +9,10 @@ const Contact = () => (
     <div className="contact">
       <div>
         <div className="contactheader">Contact us</div>
-        <p>Please call, text, or e-mail with any questions, comments, or scheduling inquiries.  We serve Queens, Nassau County, and Manhattan, and accept Medicare.</p>
-        <div className="contactinfo">Email: mthomas@smartmovesphysicaltherapy.com</div>
         <div className="contactinfo">Phone: 678-372-7972</div>
         <div className="contactinfo">Fax: 347-826-0865</div>
+        <div className="contactinfo">mthomas@smartmovesphysicaltherapy.com</div>
+        <p>Please call, text, or e-mail with any questions, comments, or scheduling inquiries.  We serve Queens, Nassau County, and Manhattan, and accept Medicare.</p>
       </div>
       <img src={walking2} alt="home physical therapy" />
     </div>
